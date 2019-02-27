@@ -26,7 +26,7 @@ UltraDMM was originally created to replace the DMM software that ships with Uni-
 * Virtual meters that can aid in simulations
 * Save workspaces for common scenarios and sharing among group of engineers
 * Export data for more later analysis in Excel
-</description>
+    </description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

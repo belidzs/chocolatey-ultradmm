@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ultradmm</id>
+    <version>1.0.5.37035</version>
+    <packageSourceUrl>https://github.com/belidzs/chocolatey-ultradmm</packageSourceUrl>
+    <owners>belidzs</owners>
+    <title>UltraDMM (Install)</title>
+    <authors>Kaskingo Inc.</authors>
+    <projectUrl>http://www.ultradmm.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/belidzs/chocolatey-ultradmm/icons/ultradmm.png</iconUrl>
+    <copyright>2012 Kaskingo Inc.</copyright>
+    <tags>ultradmm</tags>
+    <summary>UltraDMM aims to unify software DMM analysis.</summary>
+    <description>## UltraDMM aims to unify software DMM analysis.
+
+UltraDMM was originally created to replace the DMM software that ships with Uni-Trend UT series meters. It quickly grew from that point with many advanced features.
+
+### Features:
+
+* Support for multiple simultaneous meters
+* Advanced Triggers can alert via audio or visual feedback on meter value change
+* Analog/Digital Gauges can help represent the data more accurately
+* Gauges can combine values from multiple meters via various algorithms
+* Virtual meters that can aid in simulations
+* Save workspaces for common scenarios and sharing among group of engineers
+* Export data for more later analysis in Excel
+</description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
